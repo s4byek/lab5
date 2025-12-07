@@ -2,6 +2,7 @@ class Main{
     public static void main(String[] args) {
         printMessage();
         print3();
+        print4();
     }
     public static void printMessage() {
         System.out.print("Это добавлено в ветке dev");
@@ -10,6 +11,9 @@ class Main{
     }
     public static void print3(){
         System.out.println("Это значительные изменения для третьего коммита");
+    }
+    public static void print4(){
+        System.out.println("Это значительные изменения для четвертого коммита");
     }
 
 }
